@@ -8,7 +8,7 @@ echo "Install uv-ext ..."
 
 mkdir -p $UVDIR
 # copy command file
-if [ ! -f $SCRIPT_PATH ]; then
+if [ -f $SCRIPT_PATH ]; then
     echo $SCRIPT_PATH already exists, overwrite.
 fi
 cp $ORIG_SCRIPT_PATH $SCRIPT_PATH
