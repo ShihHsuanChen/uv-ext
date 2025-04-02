@@ -24,3 +24,24 @@ $ cd uv-ext
 $ chmod u+x ./install.sh
 $ ./install.sh
 ```
+
+## Usage
+
+### Show help
+
+```
+$ uv-ext --help
+Extended uv command for global virtual environments operations.
+
+Usage: uv-ext <COMMANd> [OPTIONS]
+
+Commands:
+  list                 List global uv virtual environments
+  create <venv name>   Create a new global uv virtual environments
+  remove <venv name>   Remove a global uv virtual environments
+  activate <venv name> Activate a global uv virtual environments
+
+Options:
+  --help               Show this help message
+
+```
