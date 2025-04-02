@@ -25,6 +25,8 @@ $ chmod u+x ./install.sh
 $ ./install.sh
 ```
 
+3. If the `uv-ext` command not found, try restarting the shell.
+
 ## Usage
 
 ### Show help
